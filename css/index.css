@@ -25,7 +25,8 @@ body{
 .header .logo img{
 	width: 400px;
 	height: auto;
-	margin-left: 50px;
+	display: grid;
+	grid-template-columns: 10% 20% 40% 20% 10%;
 }
 
 nav{
@@ -69,7 +70,6 @@ nav a{
 	color: #087F7B;
 	padding-bottom: 10px;
 	text-align: center;
-	margin-left: 90px;
 }
 
 .course{
