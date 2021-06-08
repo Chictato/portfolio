@@ -1,0 +1,86 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+    font-family: philly;
+    src: url(../fonts/philly_sans/PhillySans.otf);
+}
+
+@font-face {
+    font-family: poppin;
+	src: url(../fonts/Poppins/Poppins-Regular.ttf);
+}
+
+body{
+	background-image: url(../images/bg.jpg);
+	font-family: philly;
+}
+
+.header{
+	display: grid;
+	grid-template-columns: 10% 20% 40% 20% 10%;
+	margin-top: 20px;
+}
+
+.header .logo img{
+	width: 400px;
+	height: auto;
+	margin-left: 50px;
+}
+
+nav{
+	background-color: bisque;
+	font-size: 25px;
+	padding: 5px;
+	border: 3px solid #087F7B;
+	border-radius: 5px;
+	text-align: center;
+	color: #FF5900;
+	font-weight: bold;
+}
+
+nav a{
+	color: #087F7B;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+ a {
+  transition: 0.3s ease;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 6px 0;
+  margin: 0 20px;
+}
+ a:hover {
+  color: #FF5900;
+  
+}
+
+.name{
+	display: grid;
+	grid-template-columns: 10% 20% 40% 20% 10%;
+}
+
+.name h1{
+	font-size: 40px;
+	width: 300px;
+	border-bottom: 4px solid #FF5900;
+	color: #087F7B;
+	padding-bottom: 10px;
+	text-align: center;
+	margin-left: 90px;
+}
+
+.course{
+	display: grid;
+	grid-template-columns: 10% 20% 40% 20% 10%;
+}
+
+.course h3{
+	color: #087F7B;
+	margin-top: -10px;
+	font-size: 25px;
+	text-align: center;
+}
+

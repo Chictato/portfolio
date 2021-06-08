@@ -1,0 +1,155 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+    font-family: philly;
+    src: url(../fonts/philly_sans/PhillySans.otf);
+}
+
+@font-face {
+    font-family: poppin;
+	src: url(../fonts/Poppins/Poppins-Regular.ttf);
+}
+
+body{
+background-image: url(../images/bg.jpg);
+	font-family: philly;
+}
+
+.header{
+	display: grid;
+	grid-template-columns: 10% 8% 15% 57% 10%;
+	grid-column-gap: 1em;
+}
+
+.header .logo img{
+	width: 123px;
+	height: auto;
+}
+
+.header .name h1{
+	font-size: 25px;
+	width: 200px;
+	border-bottom: 3px solid #FF5900;
+	color: #087F7B;
+	padding-bottom: 10px;
+	font-family: philly;
+	margin-left: 15px;
+}
+
+.header .name h3{
+	color: #087F7B;
+	margin-top: -10px;
+	font-size: 15px;
+	font-family: philly;
+	margin-left: 15px;
+}
+
+ul {
+ list-style: none;
+ font-family: philly;
+ 
+}
+
+ul li {
+ float: right;
+ width: 100px;
+ height: 20px;
+ background-color: bisque;
+ opacity: .8;
+ line-height: 18px;
+ text-align: center;
+ font-size: 17px;
+ font-weight: bold;
+}
+
+ul li a {
+ transition: 0.3s ease;
+ text-decoration: none;
+ color: #087F7B;
+ display: block;
+ border: 2px solid #087F7B;
+}
+
+ul li a:hover {
+ color: #FF5900;
+}
+
+ul li a.current{
+	color: #FF5900;
+}
+
+ul li ul li{
+ display: none;
+ 
+}
+
+ul li:hover ul li {
+ display: block;
+}
+
+.heading{
+	display: grid;
+	grid-template-columns: 10% 80% 10%;
+	grid-column-gap: 2em;
+	height: 50px;
+}
+
+.heading .title{
+	color: #087F7B;
+}
+
+.heading .title h1{
+	text-align: center;
+	text-decoration: underline;
+	text-decoration-color: #FF5900;
+	font-size: 80px;
+}
+
+.content1{
+	display: grid;
+	grid-template-columns: 10% 40% 40% 10%;
+	margin-top: 100px;
+	grid-column-gap: 50px;
+	margin-left: -80px;
+	
+}
+
+.content1 img{
+	width: 500px;
+	height: auto;
+	border: 3px solid #087F7B;
+	border-radius: 5px;
+}
+
+.content2{
+	display: grid;
+	grid-template-columns: 10% 40% 40% 10%;
+	margin-top: 100px;
+	grid-column-gap: 50px;
+	margin-left: -80px;
+	
+}
+
+.content2 img{
+	width: 500px;
+	height: auto;
+	border: 3px solid #087F7B;
+	border-radius: 5px;
+}
+
+.content3{
+	display: grid;
+	grid-template-columns: 10% 40% 40% 10%;
+	margin-top: 100px;
+	grid-column-gap: 50px;
+	margin-left: -80px;
+	
+}
+
+.content3 img{
+	width: 500px;
+	height: auto;
+	border: 3px solid #087F7B;
+	border-radius: 5px;
+}
